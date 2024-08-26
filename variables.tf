@@ -1082,7 +1082,7 @@ variable "db_engine_version" {
 ## Database Instance Class
 variable "db_instance_class" {
   type        = string
-  default     = "db.r5.xlarge"
+  default     = "db.t3.micro"
   description = "The instance class for the database."
 }
 
@@ -1482,7 +1482,7 @@ variable "ec2_instance_name" {
 variable "ec2_instance_type" {
   type        = string
   description = "The type of the EC2 instance."
-  default     = "m5a.2xlarge"
+  default     = "t3.medium"
 }
 
 ## EC2 instance profile name

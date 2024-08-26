@@ -1,7 +1,7 @@
 ## -- Complete Example for Public EC2 instance -- ##
 module "terraform-seqera-aws" {
   source = "../../"
-  region  = "us-west-2"
+  region  = "eu-west-1"
 
   ## VPC
   vpc_name = "seqera-vpc"

@@ -1,7 +1,7 @@
 ## -- Complete Example for EKS cluster -- ##
 module "terraform-seqera-aws" {
   source = "../../"
-  region  = "us-west-1"
+  region  = "eu-west-1"
 
   ## VPC
   vpc_name = "seqera-vpc"
